@@ -1,2 +1,3 @@
 # Taller-1-Typescript-
-taller
+Santiago Rodriguez Cruz 202013371
+
