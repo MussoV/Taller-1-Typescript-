@@ -5,6 +5,7 @@ let seriesBody: HTMLElement = document.getElementById("programas")!;
 let PromedioSeasons: HTMLElement = document.getElementById('seasons-average')!;
 
 CargaSeriesEnTabla(datosSeries);
+PromedioSeasons.innerHTML = `Seasons average: ${TotalAvgSeasons(datosSeries)}`
 
 
 function CargaSeriesEnTabla(series: Serie[]): void {
