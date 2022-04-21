@@ -2,6 +2,8 @@ import { datosSeries } from './data.js';
 var seriesBody = document.getElementById("programas");
 var PromedioSeasons = document.getElementById('seasons-average');
 CargaSeriesEnTabla(datosSeries);
+PromedioSeasons.innerHTML = "Seasons average: ".concat(TotalAvgSeasons(datosSeries));
+
 function CargaSeriesEnTabla(series) {
     console.log("Cargando información a la tabla");
     series.forEach(function (serie) {
